@@ -34,7 +34,7 @@ public class Menu {
 			System.out.println("            2 - Listar todos os Monitores            ");
 			System.out.println("            3 - Buscar Monitor por Número            ");
 			System.out.println("            4 - Atualizar Dados do Monitor           ");
-			System.out.println("            5 - Apagar Monitor                       ");
+			System.out.println("            5 - Deletar Dados do Monitor             ");
 			System.out.println("            6 - Sair                                 ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
@@ -62,23 +62,23 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Criar Cadastro");
+				System.out.println("Cadastrar Monitor");
 				keyPress();
 				break;
 			case 2:
-				System.out.println("Listar todas os Cadastros");
+				System.out.println("Listar todos os Monitores");
 				keyPress();
 				break;
 			case 3:
-				System.out.println("Buscar Cadastros por CPF");
+				System.out.println("Buscar Monitor por Número");
 				keyPress();
 				break;
 			case 4:
-				System.out.println("Atualizar Dados do Cadastro");
+				System.out.println("Atualizar Dados do Monitor");
 				keyPress();
 				break;
 			case 5:
-				System.out.println("Deletar Dados do Cadastro");
+				System.out.println("Deletar Dados do Monitor");
 				keyPress();
 				break;
 			default: 
