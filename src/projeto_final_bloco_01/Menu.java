@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import projeto_final_bloco_01.model.MonitorGamer;
+import projeto_final_bloco_01.model.MonitorTradicional;
+
 public class Menu {
 
 	public static void main(String[] args) {
@@ -11,6 +14,13 @@ public class Menu {
 		Scanner leia = new Scanner(System.in);
 
 		int opcao;
+		
+		MonitorTradicional mt1 = new MonitorTradicional(1, "LG", 1, 14, 200.00f, 12345);
+		mt1.visualizar();
+		
+		MonitorGamer mg2 = new MonitorGamer(2, "SONY", 2, 18, 100.00f, 54321);
+		mg2.visualizar();
+		
 
 		while (true) {
 
@@ -20,11 +30,11 @@ public class Menu {
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("            1 - Criar Cadastro                       ");
-			System.out.println("            2 - Listar todas os Cadastros            ");
-			System.out.println("            3 - Buscar Cadastros por CPF             ");
-			System.out.println("            4 - Atualizar Dados do Cadastro          ");
-			System.out.println("            5 - Apagar Cadastro                      ");
+			System.out.println("            1 - Cadastrar Monitor                    ");
+			System.out.println("            2 - Listar todos os Monitores            ");
+			System.out.println("            3 - Buscar Monitor por Número            ");
+			System.out.println("            4 - Atualizar Dados do Monitor           ");
+			System.out.println("            5 - Apagar Monitor                       ");
 			System.out.println("            6 - Sair                                 ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
