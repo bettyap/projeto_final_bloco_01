@@ -10,7 +10,7 @@ public abstract class Monitor {
 	private float polegadas;
 	private float valor;
 
-	public Monitor(int id, String marca, int categoria, float polegadas, float valor) {
+	public Monitor (int id, String marca, int categoria, float polegadas, float valor) {
 		this.id = id;
 		this.marca = marca;
 		this.categoria = categoria;
